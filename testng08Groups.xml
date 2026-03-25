@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/shashikant.rai/UI_Automation/APIAutomationPrograms">
+
+        <groups>
+            <run>
+                <include name="reg"/>
+                <include name="sanity"/>
+            </run>
+        </groups>
+
+
+        <classes><class name="com.thetestingacademy.TESTNGAdvanceExamples.TestngGroupsLab17">
+            <methods><include name="testCase01"/>
+                <include name="testCase02"/>
+                <include name="testCase03"/>
+            </methods>
+        </class>
+            <class name="com.thetestingacademy.TESTNGAdvanceExamples.TestngGroupsLab17">
+                <methods>
+                    <include name="testCase01"/>
+                    <include name="testCase02"/>
+                    <include name="testCase03"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
